@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="pt"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Safe Bilhar POS</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head><body>
+<div id="toastRoot"></div>
+<section id="loginScreen" class="login-screen">
+  <div class="login-panel">
+    <div class="login-brand">
+      <img src="assets/img/logo-safebilhar.svg" alt="Safe Bilhar">
+      <h1>Sistema POS Profissional</h1>
+      <p>Caixa, stock, multi-loja, transferências e permissões.</p>
+    </div>
+    <div class="login-card">
+      <img class="login-logo" src="assets/img/logo-safebilhar.svg" alt="Safe Bilhar">
+      <h2>Iniciar sessão</h2>
+      <label>Usuário</label><input id="loginUser" value="admin" autocomplete="username">
+      <label>Senha</label><input id="loginPass" type="password" value="1234" autocomplete="current-password">
+      <button class="btn primary full" id="loginBtn">Entrar</button>
+      <small>admin/1234 · caixa/1234 · gestor/1234</small>
+    </div>
+  </div>
+</section>
+<section id="appShell" class="app-shell hidden">
+  <aside class="sidebar">
+    <img class="side-logo" src="assets/img/logo-safebilhar.svg" alt="Safe Bilhar">
+    <nav id="mainMenu"></nav>
+    <button class="btn ghost full" id="backupBtn">Backup</button>
+    <button class="btn danger full" id="logoutBtn">Sair</button>
+  </aside>
+  <main class="workspace">
+    <header class="topbar">
+      <div><h2 id="viewTitle">Dashboard</h2><p id="viewSubtitle">Gestão da loja</p></div>
+      <div class="top-actions"><select id="activeStoreSelect"></select><div class="user-pill"><span id="loggedUserName"></span><strong id="loggedUserRole"></strong></div></div>
+    </header>
+    <section id="appView"></section>
+  </main>
+</section>
+<div id="modalRoot"></div><div id="printArea"></div>
+<script src="assets/js/data/seed.js"></script>
+<script src="assets/js/app.js"></script>
+</body></html>

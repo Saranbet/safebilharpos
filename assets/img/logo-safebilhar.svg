@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120">
+<rect width="420" height="120" rx="24" fill="#0f172a"/>
+<circle cx="62" cy="60" r="42" fill="#facc15"/>
+<circle cx="62" cy="60" r="24" fill="#111827"/>
+<text x="62" y="68" text-anchor="middle" font-family="Arial" font-size="24" font-weight="900" fill="#ffffff">SB</text>
+<text x="122" y="55" font-family="Arial" font-size="34" font-weight="900" fill="#ffffff">Safe Bilhar</text>
+<text x="124" y="83" font-family="Arial" font-size="17" font-weight="700" fill="#facc15">POS Profissional</text>
+</svg>
